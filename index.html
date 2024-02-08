@@ -4,31 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project PEPSII</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f0f0f0;
+            background-color: #f8f9fa;
         }
         header {
-            background-color: #333;
+            background-color: #4CAF50;
             color: #fff;
-            padding: 20px;
+            padding: 30px 0;
             text-align: center;
         }
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+            letter-spacing: 2px;
+        }
         nav {
-            background-color: #444;
+            background-color: #333;
             padding: 10px;
             text-align: center;
         }
         nav a {
             color: #fff;
             text-decoration: none;
-            margin: 0 10px;
+            margin: 0 15px;
+            font-size: 18px;
+            transition: all 0.3s ease;
         }
         nav a:hover {
-            text-decoration: underline;
+            color: #4CAF50;
         }
         .container {
             max-width: 1200px;
@@ -37,24 +45,52 @@
         }
         section {
             background-color: #fff;
-            padding: 20px;
-            margin-bottom: 20px;
-            border-radius: 5px;
+            padding: 40px;
+            margin-bottom: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+        section h2 {
+            margin-top: 0;
+            font-size: 28px;
+            color: #4CAF50;
+            text-align: center;
+        }
+        section p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #555;
+        }
+        section ul {
+            list-style-type: none;
+            padding: 0;
+            font-size: 18px;
+        }
+        section ul li {
+            margin-bottom: 10px;
+            padding-left: 20px;
+            position: relative;
+        }
+        section ul li::before {
+            content: "\f00c";
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            position: absolute;
+            left: 0;
+            top: 2px;
+            color: #4CAF50;
         }
         footer {
             background-color: #333;
             color: #fff;
-            padding: 10px;
+            padding: 20px 0;
             text-align: center;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Welcome to Project PEPSII</h1>
+        <h1>Project PEPSII</h1>
     </header>
     <nav>
         <a href="#about">About</a>
@@ -64,25 +100,27 @@
     <div class="container">
         <section id="about">
             <h2>About Project PEPSII</h2>
-            <p>Project PEPSII is an exciting new game that...</p>
+            <p>Welcome to the exciting world of Project PEPSII! Dive into an adventure like no other, where challenges await at every turn. Immerse yourself in stunning visuals, captivating storylines, and thrilling gameplay. Are you ready to embark on this epic journey?</p>
         </section>
         <section id="features">
             <h2>Features</h2>
             <ul>
-                <li>Feature 1</li>
-                <li>Feature 2</li>
-                <li>Feature 3</li>
-                <!-- Add more features here -->
+                <li>Immersive gameplay experience</li>
+                <li>Stunning graphics and visual effects</li>
+                <li>Rich and engaging storyline</li>
+                <li>Customizable characters and abilities</li>
+                <li>Multiplayer support for online battles</li>
+                <li>Regular updates and new content</li>
             </ul>
         </section>
         <section id="github">
             <h2>GitHub Repository</h2>
-            <p>You can find the source code for Project PEPSII on GitHub.</p>
+            <p>Explore the source code of Project PEPSII on GitHub and join our community of developers and gamers!</p>
             <p><a href="https://github.com/yourusername/project-pepsii" target="_blank">Project PEPSII GitHub Repository</a></p>
         </section>
     </div>
     <footer>
-        &copy; 2024 Project PEPSII
+        &copy; 2024 Project PEPSII. All rights reserved.
     </footer>
 </body>
 </html>
