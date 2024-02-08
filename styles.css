@@ -1,15 +1,16 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #f0f0f0; /* Light gray background */
-    color: #333; /* Dark gray text color */
+    background-image: url('https://cdn.discordapp.com/attachments/1203511390216654868/1204983041487806464/standard_1.gif?ex=65d6b6e8&is=65c441e8&hm=febbfd37d6a981daaa2a9ef322668bd042bf734344a04875d40eb87c00e4b471&');
+    background-size: cover;
+    color: #fff;
     margin: 0;
     padding: 0;
     line-height: 1.6;
 }
 
 header {
-    background-color: #4CAF50; /* Green header background */
-    color: #fff; /* White text color */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background for header */
+    color: #fff;
     padding: 30px 0;
     text-align: center;
 }
@@ -21,13 +22,13 @@ header h1 {
 }
 
 nav {
-    background-color: #4CAF50; /* Green navigation background */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background for navigation */
     padding: 10px;
     text-align: center;
 }
 
 nav a {
-    color: #fff; /* White text color */
+    color: #fff;
     text-decoration: none;
     margin: 0 15px;
     font-size: 18px;
@@ -42,29 +43,29 @@ nav a:hover {
     max-width: 1200px;
     margin: 20px auto;
     padding: 0 20px;
-    background-color: #fff; /* White container background */
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white container background */
     border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Light shadow */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Dark shadow */
 }
 
 section {
     padding: 40px;
     margin-bottom: 40px;
     border-radius: 10px;
-    background-color: #f9f9f9; /* Light gray section background */
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Light shadow */
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white section background */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Dark shadow */
 }
 
 section h2 {
     margin-top: 0;
     font-size: 28px;
-    color: #4CAF50; /* Green section heading */
+    color: #4CAF50;
     text-align: center;
 }
 
 section p {
     font-size: 18px;
-    color: #555; /* Dark gray text color */
+    color: #555;
 }
 
 section ul {
@@ -86,12 +87,12 @@ section ul li::before {
     position: absolute;
     left: 0;
     top: 2px;
-    color: #4CAF50; /* Green checkmark color */
+    color: #4CAF50;
 }
 
 footer {
-    background-color: #4CAF50; /* Green footer background */
-    color: #fff; /* White text color */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background for footer */
+    color: #fff;
     padding: 20px 0;
     text-align: center;
 }
