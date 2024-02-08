@@ -1,15 +1,14 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
     margin: 0;
     padding: 0;
-    background-image: url('https://cdn.discordapp.com/attachments/1203511390216654868/1204983041487806464/standard_1.gif?ex=65d6b6e8&is=65c441e8&hm=febbfd37d6a981daaa2a9ef322668bd042bf734344a04875d40eb87c00e4b471');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    line-height: 1.6;
 }
 
 header {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: #4CAF50;
     color: #fff;
     padding: 30px 0;
     text-align: center;
@@ -22,7 +21,7 @@ header h1 {
 }
 
 nav {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: #4CAF50;
     padding: 10px;
     text-align: center;
 }
@@ -36,23 +35,23 @@ nav a {
 }
 
 nav a:hover {
-    color: #4CAF50;
+    color: #2e7d32;
 }
 
 .container {
     max-width: 1200px;
     margin: 20px auto;
     padding: 0 20px;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: #fff;
     border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
 section {
     padding: 40px;
     margin-bottom: 40px;
     border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: #f9f9f9;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
@@ -65,7 +64,6 @@ section h2 {
 
 section p {
     font-size: 18px;
-    line-height: 1.6;
     color: #555;
 }
 
@@ -92,23 +90,8 @@ section ul li::before {
 }
 
 footer {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: #4CAF50;
     color: #fff;
     padding: 20px 0;
     text-align: center;
-}
-
-.download-btn {
-    display: inline-block;
-    background-color: #4CAF50;
-    color: #fff;
-    text-decoration: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 20px;
-    transition: all 0.3s ease;
-}
-
-.download-btn:hover {
-    background-color: #45a049;
 }
