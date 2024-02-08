@@ -1,95 +1,97 @@
- body {
-            font-family: 'Roboto', sans-serif;
-            background-color: #000;
-            color: #fff;
-            margin: 0;
-            padding: 0;
-            line-height: 1.6;
-        }
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0; /* Light gray background */
+    color: #333; /* Dark gray text color */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
 
-        header {
-            background-color: transparent;
-            color: #fff;
-            padding: 30px 0;
-            text-align: center;
-        }
+header {
+    background-color: #4CAF50; /* Green header background */
+    color: #fff; /* White text color */
+    padding: 30px 0;
+    text-align: center;
+}
 
-        header h1 {
-            margin: 0;
-            font-size: 36px;
-            letter-spacing: 2px;
-        }
+header h1 {
+    margin: 0;
+    font-size: 36px;
+    letter-spacing: 2px;
+}
 
-        nav {
-            background-color: transparent;
-            padding: 10px;
-            text-align: center;
-        }
+nav {
+    background-color: #4CAF50; /* Green navigation background */
+    padding: 10px;
+    text-align: center;
+}
 
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            margin: 0 15px;
-            font-size: 18px;
-            transition: all 0.3s ease;
-        }
+nav a {
+    color: #fff; /* White text color */
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
 
-        nav a:hover {
-            color: #2e7d32;
-        }
+nav a:hover {
+    color: #2e7d32; /* Darker green on hover */
+}
 
-        .container {
-            max-width: 1200px;
-            margin: 20px auto;
-            padding: 0 20px;
-        }
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+    background-color: #fff; /* White container background */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
 
-        section {
-            padding: 40px;
-            margin-bottom: 40px;
-            background-color: rgba(255, 255, 255, 0.1); /* Light gray background with transparency */
-            border-radius: 10px;
-            box-shadow: 0 0 20px rgba(255, 255, 255, 0.2); /* Soft shadow */
-        }
+section {
+    padding: 40px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    background-color: #f9f9f9; /* Light gray section background */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
 
-        section h2 {
-            margin-top: 0;
-            font-size: 28px;
-            color: #fff;
-            text-align: center;
-        }
+section h2 {
+    margin-top: 0;
+    font-size: 28px;
+    color: #4CAF50; /* Green section heading */
+    text-align: center;
+}
 
-        section p {
-            font-size: 18px;
-            color: #ccc;
-        }
+section p {
+    font-size: 18px;
+    color: #555; /* Dark gray text color */
+}
 
-        section ul {
-            list-style-type: none;
-            padding: 0;
-            font-size: 18px;
-        }
+section ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 18px;
+}
 
-        section ul li {
-            margin-bottom: 10px;
-            padding-left: 20px;
-            position: relative;
-        }
+section ul li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
 
-        section ul li::before {
-            content: "\f00c";
-            font-family: "Font Awesome 5 Free";
-            font-weight: 900;
-            position: absolute;
-            left: 0;
-            top: 2px;
-            color: #4CAF50;
-        }
+section ul li::before {
+    content: "\f00c";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    position: absolute;
+    left: 0;
+    top: 2px;
+    color: #4CAF50; /* Green checkmark color */
+}
 
-        footer {
-            background-color: transparent;
-            color: #fff;
-            padding: 20px 0;
-            text-align: center;
-        }
-    </style>
+footer {
+    background-color: #4CAF50; /* Green footer background */
+    color: #fff; /* White text color */
+    padding: 20px 0;
+    text-align: center;
+}
